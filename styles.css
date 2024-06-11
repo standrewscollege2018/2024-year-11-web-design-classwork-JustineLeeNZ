@@ -1,0 +1,40 @@
+/* styles for my first website */
+
+/* change body tag styles */
+
+body {
+
+    background-color: rgba(255,0,0,0.5);  
+    color: chartreuse;  
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* heading styles */
+h1 {
+
+    color:rgb(50,128,255);
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 20pt;
+}
+
+/* link styles */
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color:white;
+    text-decoration: none;
+
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
