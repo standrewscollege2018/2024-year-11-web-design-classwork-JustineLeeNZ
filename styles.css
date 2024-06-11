@@ -1,5 +1,11 @@
 /* styles for my first website */
 
+/* universal selector - set all margins & padding to zero */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
 /* change body tag styles */
 
 body {
@@ -15,6 +21,15 @@ h1 {
     color:rgb(50,128,255);
     font-family:'Times New Roman', Times, serif ;
     font-size: 20pt;
+    background-color: blanchedalmond;
+    margin: 10px 20px 10px 20px;
+}
+
+/* paragraph styles */
+p {
+    background-color: white;
+    padding: 5px 30px 5px 30px;
+    margin: 10px;
 }
 
 /* link styles */
@@ -37,4 +52,9 @@ a:link {
 a:hover {
     color: white;
     text-decoration: none;
+}
+
+/* styles for lists */
+ul {
+    margin-left: 20px;
 }
