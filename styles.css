@@ -25,6 +25,10 @@ h1 {
     margin: 10px 20px 10px 20px;
 }
 
+.fancy h1 {
+    color:aquamarine;
+}
+
 /* paragraph styles */
 p {
     background-color: white;
@@ -66,4 +70,22 @@ ul {
 .quote {
     font-style: italic;
     color:darkorange;
+}
+
+.sidebar {
+    font-style: italic;
+    font-weight: bolder;
+    color:deeppink;
+    background-color: brown;
+
+
+}
+
+/* testing out div tag basics */
+.box {
+    background-color: azure;
+    /* width: 300px; */
+    width: 25%;
+    padding: 5px;
+    margin: 10px 10px 10px 30px;
 }
