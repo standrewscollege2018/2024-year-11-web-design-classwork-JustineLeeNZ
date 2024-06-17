@@ -1,5 +1,18 @@
 /* styles for my first website */
 
+/* fonts to import */
+
+
+/* heading styles */
+h1 {
+
+    color:rgb(50,128,255);
+    font-family: rocks-serif, serif;
+    font-size: 20pt;
+    background-color: blanchedalmond;
+    margin: 10px 20px 10px 20px;
+}
+
 /* universal selector - set all margins & padding to zero */
 * {
     padding: 0px;
@@ -13,27 +26,16 @@ body {
     background-color: rgba(255,0,0,0.5);  
     color: chartreuse;  
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
-/* heading styles */
-h1 {
 
-    color:rgb(50,128,255);
-    font-family:'Times New Roman', Times, serif ;
-    font-size: 20pt;
-    background-color: blanchedalmond;
-    margin: 10px 20px 10px 20px;
-}
 
-.fancy h1 {
-    color: red;
-    font-size: 60pt;
-}
+/* differnt examples of compound styles */
+/* use this format with a tag inside a div tag e.g. <div class="fancy"><h1>.....</h1></div> */
 
-h2.test {
-    color:blueviolet;
-    font-size: 50pt;;
-}
+
+
 
 /* paragraph styles */
 p {
@@ -74,7 +76,6 @@ ul {
     margin-left: 20px;
 }
 
-/* fonts to import */
 
 
 /* quotation style paragraph */
@@ -99,4 +100,8 @@ ul {
     width: 25%;
     padding: 5px;
     margin: 10px 10px 10px 30px;
+}
+
+.box p {
+    color:darkolivegreen;
 }
