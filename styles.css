@@ -58,3 +58,12 @@ a:hover {
 ul {
     margin-left: 20px;
 }
+
+/* fonts to import */
+
+
+/* quotation style paragraph */
+.quote {
+    font-style: italic;
+    color:darkorange;
+}
