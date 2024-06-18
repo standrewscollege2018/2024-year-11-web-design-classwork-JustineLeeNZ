@@ -105,3 +105,22 @@ ul {
 .box p {
     color:darkolivegreen;
 }
+
+/* CSS grid example */
+.eg-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.left {
+    color:blue;
+    background-color: bisque;
+}
+
+.left p {
+    background-color: bisque;
+}
+
+.right {
+    background-color: white;
+}
