@@ -1,6 +1,11 @@
 /* styles for my first website */
 
 /* fonts to import */
+@font-face {
+    font-family: catalyst;
+    src: url(Catalyst Script.ttf);
+}
+
 
 
 /* heading styles */
@@ -72,9 +77,10 @@ a:hover {
 }
 
 /* styles for lists */
-ul {
+ul, ol {
     margin-left: 20px;
 }
+
 
 
 
@@ -110,17 +116,39 @@ ul {
 .eg-container {
     display: grid;
     grid-template-columns: 1fr 2fr;
+    background-color: white;
 }
 
 .left {
     color:blue;
-    background-color: bisque;
+    
 }
 
-.left p {
-    background-color: bisque;
-}
 
 .right {
-    background-color: white;
+    color:red;
+    text-align: right;
+}
+
+/* CSS grid eg with cards */
+
+.card-container {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+
+.card {
+    background-color: lightcyan;
+    margin: 10px 5px 0px 5px;
+    padding: 10px;
+    text-align: center;
+    border: 5px;
+    border-color: black;
+    border-radius: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
 }
