@@ -115,12 +115,19 @@ ul, ol {
 /* CSS grid example */
 .eg-container {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: repeat(3, 1fr);
     background-color: white;
 }
 
 .left {
     color:blue;
+    background-color: brown;
+    
+}
+
+.middle {
+    color:blue;
+    background-color: rgb(246, 226, 10);
     
 }
 
@@ -134,7 +141,8 @@ ul, ol {
 
 .card-container {
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: repeat(3, 1fr);
+  
 }
 
 .card {
