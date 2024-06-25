@@ -115,8 +115,9 @@ ul, ol {
 /* CSS grid example */
 .eg-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    /* grid-template-columns: 1fr 2fr 1fr; */
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* grid-template-columns: 2fr 1fr; */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     background-color: white;
 }
 
@@ -142,22 +143,40 @@ ul, ol {
 
 .card-container {
     display:grid;
-    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   
 }
 
 .card {
     background-color: lightcyan;
+    color: black;
     margin: 10px 5px 0px 5px;
     padding: 10px;
     text-align: center;
     border: 5px;
     border-color: black;
     border-radius: 10px;
+    font-size: 50pt;
 }
 
 img {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
+}
+
+
+/* media queries below */
+@media only screen and (max-width: 800px) {
+
+    body {
+        background-color: darkgrey;
+    }
+
+    .card {
+        background-color: brown;
+    }
+
+
 }
