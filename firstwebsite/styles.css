@@ -143,8 +143,8 @@ ul, ol {
 
 .card-container {
     display:grid;
-    /* grid-template-columns: repeat(3, 1fr); */
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
   
 }
 
@@ -168,7 +168,7 @@ img {
 
 
 /* media queries below */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
 
     body {
         background-color: darkgrey;
@@ -178,5 +178,29 @@ img {
         background-color: brown;
     }
 
+    .card-container {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+      
+    }
 
+    
+}
+
+@media only screen and (max-width: 500px) {
+
+    body {
+        background-color: darkgrey;
+    }
+
+    .card {
+        background-color: greenyellow;
+    }
+
+    .card-container {
+        display:grid;
+        grid-template-columns: 1fr;
+      
+    }
+    
 }
